@@ -1,22 +1,29 @@
-# PROJET_601
-Optimisation mathématiques de la production d'un barrage hydraulique, à l'aide d'une équation de Bellman en programmation dynamique.
+# 🚀 PROJET 601 – Optimisation de la Production d’un Barrage Hydraulique
+Optimisation mathématique de la production d’un barrage hydraulique à l’aide de l’équation de Bellman en programmation dynamique.
 
-## Objectifs:
-Implémenter l'algorithme de programmation dynamique et tracer les graphes correspondants à l'évolution de la production d’électricité dans les cas où :
-1. le débit entrant est constant.
-2. le débit entrant évolue de façon sinusoïdale.
-3. le débit entrant contient une crue.
-- Modifier l'algorithme précédent en prenant en compte l’évolution du tarif de l’électricité suivant l'heure de la journée et optimiser le gain financier.
-- Supposer que le débit entrant est aléatoire et évolue comme une chaîne de Markov.
+## 🎯 Objectifs
+L’objectif de ce projet est d’implémenter un algorithme de programmation dynamique et d’analyser la production d’électricité dans différents scénarios de débits entrants :
 
-Implémenter l'équation de programmation dynamique stochastique associée.
+1. Débit entrant constant
+2. Débit entrant variant de manière sinusoïdale
+3. Débit entrant contenant un épisode de crue
 
-- Supposer que le barrage possède maintenant deux retenues et modifier l'équation de programmation dynamique en conséquence.
+Des optimisations supplémentaires incluent :
+- La prise en compte de l’évolution du tarif de l’électricité en fonction de l’heure de la journée afin de maximiser le gain financier.
+- La modélisation d’un débit entrant aléatoire sous forme de chaîne de Markov et l’implémentation de l’équation de programmation dynamique stochastique associée.
+- L’extension du modèle à un barrage à deux retenues avec une adaptation de l’équation de programmation dynamique.
+- L’extension du modèle à un barrage à trois retenues, en adaptant l’équation et en implémentant un algorithme optimisé pour tous les cas déjà traités (une et deux retenues).
+- La prise en compte de l’organisation du réseau des trois retenues sous forme d’une matrice de graphe.
 
-Implémenter l'algorithme correspondant, pour tous les cas déjà traités, avec une seule retenue.
+## 🛠️ Implémentation
+Langage utilisé : MATLAB
 
-- Supposer que le barrage possède maintenant trois retenues et modifier l'équation de programmation dynanique en conséquence.
+Méthodologie : Programmation dynamique, modélisation stochastique et optimisation
 
-Implémenter l'algorithme correspondant, pour tous les cas déjà traités, avec une seule et deux retenues.
+## 📊 Résultats et Analyses
+Les résultats incluent des visualisations de la production d’électricité pour les différents scénarios de débits entrants et configurations de retenues. Des représentations graphiques des politiques optimales sont fournies dans le rapport Projet601.pdf.
 
-Adapter ensuite l'algorithme, afin de prendre en compte l'organisation du réseau de ces trois retenues, sous formes d'une matrice de graphe.
+## 📢 Contact
+Pour toute question ou suggestion, n’hésitez pas à me contacter ou à ouvrir une issue sur ce dépôt !
+
+
