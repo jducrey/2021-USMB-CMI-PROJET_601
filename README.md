@@ -1,6 +1,8 @@
 # 🚀 PROJET 601 – Optimisation de la Production d’un Barrage Hydraulique
 Optimisation mathématique de la production d’un barrage hydraulique à l’aide de l’équation de Bellman en programmation dynamique.
 
+🎓 Projet réalisé dans le cadre de la Licence de Mathématiques et du CMI Mathématiques Appliquées – Université Savoie Mont Blanc
+
 ## 🎯 Objectifs
 L’objectif de ce projet est d’implémenter un algorithme de programmation dynamique et d’analyser la production d’électricité dans différents scénarios de débits entrants :
 
