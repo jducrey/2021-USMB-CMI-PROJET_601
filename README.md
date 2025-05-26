@@ -1,31 +1,59 @@
-# 🚀 PROJET 601 – Optimisation de la Production d’un Barrage Hydraulique
-Optimisation mathématique de la production d’un barrage hydraulique à l’aide de l’équation de Bellman en programmation dynamique.
+# 🚀 2022-USMB-CMI_OPTIMISATION_BARRAGE – Optimisation de la Production d’un Barrage Hydraulique
+Optimisation mathématique de la production d’un barrage hydraulique à l’aide de la programmation dynamique et de l’équation de Bellman.
 
-🎓 Projet réalisé dans le cadre de la Licence de Mathématiques et du CMI Mathématiques Appliquées – Université Savoie Mont Blanc
+🎓 Projet universitaire réalisé dans le cadre de la Licence Mathématiques - CMI Mathématiques Appliquées à l'Université Savoie Mont Blanc (USMB)
 
-## 🎯 Objectifs
-L’objectif de ce projet est d’implémenter un algorithme de programmation dynamique et d’analyser la production d’électricité dans différents scénarios de débits entrants :
+---
 
-1. Débit entrant constant
-2. Débit entrant variant de manière sinusoïdale
-3. Débit entrant contenant un épisode de crue
+## 🎯 Objectifs du Projet
+Concevoir et implémenter un algorithme d’**optimisation de la production électrique** d’un barrage hydraulique selon différents **scénarios de débits entrants**, en maximisant le rendement économique via la **programmation dynamique**.
 
-Des optimisations supplémentaires incluent :
-- La prise en compte de l’évolution du tarif de l’électricité en fonction de l’heure de la journée afin de maximiser le gain financier.
-- La modélisation d’un débit entrant aléatoire sous forme de chaîne de Markov et l’implémentation de l’équation de programmation dynamique stochastique associée.
-- L’extension du modèle à un barrage à deux retenues avec une adaptation de l’équation de programmation dynamique.
-- L’extension du modèle à un barrage à trois retenues, en adaptant l’équation et en implémentant un algorithme optimisé pour tous les cas déjà traités (une et deux retenues).
-- La prise en compte de l’organisation du réseau des trois retenues sous forme d’une matrice de graphe.
+### Cas étudiés :
 
-## 🛠️ Implémentation
-Langage utilisé : MATLAB
+1. 🔁 Débit entrant constant
+2. 📈 Débit entrant variant de manière sinusoïdale
+3. 🌊 Débit entrant contenant un épisode de crue
 
-Méthodologie : Programmation dynamique, modélisation stochastique et optimisation
+### Extensions :
+
+- 💸 **Tarification horaire** : prise en compte de l’évolution du prix de l’électricité en fonction de l’heure de la journée, afin de maximiser le gain financier
+- 🎲 **Stochasticité** : modélisation d’un débit entrant aléatoire, via une chaîne de Markov et implémentation de l’équation de programmation dynamique stochastique associée
+- 🏞️ **Multi-barrages** : extension du modèle à un barrage à deux puis trois retenues, avec une adaptation de l’équation de programmation dynamique et de l'algorithme associé
+- 🧠 **Modèle en graphe** : modélisation du réseau de retenues sous forme de graphe, avec matrice d'adjacence
+
+---
+
+## 🛠️ Méthodologie & Stack
+
+- **Langage** : MATLAB
+- **Méthodes** : Programmation Dynamique Déterministe & Stochastique
+- **Modélisation** : Chaînes de Markov, Optimisation multi-étapes, Graphes
+
+---
 
 ## 📊 Résultats et Analyses
-Les résultats incluent des visualisations de la production d’électricité pour les différents scénarios de débits entrants et configurations de retenues. Des représentations graphiques des politiques optimales sont fournies dans le rapport Projet601.pdf.
 
-## 📢 Contact
-Pour toute question ou suggestion, n’hésitez pas à me contacter ou à ouvrir une issue sur ce dépôt !
+- Visualisation des politiques optimales et de la production selon les configurations
+- Interprétation des stratégies de maximisation des gains économiques, déterminées par les différentes versions de l'algorithme, selons les configurations des retenues et des entrées d'eaux
+- Résultats illustrés et analysés dans le [rapport final](./Projet601.pdf)
 
+---
 
+## 📂 Structure du dépôt
+
+📁 src/ # Scripts MATLAB du projet
+📄 Projet601.pdf # Rapport final avec résultats et analyses
+📄 README.md # Présentation du projet
+
+---
+
+## 🧑‍💻 Auteur
+
+Julien Ducrey
+💬 Pour toute remarque, question ou suggestion : n’hésitez pas à ouvrir une issue ou me contacter directement.
+
+---
+
+## 📌 Note
+
+Ce projet académique a été mené dans un **cadre pédagogique**, mais les méthodes sont réutilisables dans des cas industriels de gestion énergétique et de smart grid. 
