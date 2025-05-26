@@ -41,13 +41,10 @@ Concevoir et implémenter un algorithme d’**optimisation de la production éle
 
 ## 📂 Structure du dépôt
 
-📁 src/ # Scripts MATLAB du projet
-
-📄 Projet601.pdf # Rapport final avec résultats et analyses
-
-📊 Projet 601 présentation.pptx
-
-📄 README.md # Présentation du projet
+- 📁 src/ # Scripts MATLAB du projet
+- 📄 Projet601.pdf # Rapport final avec résultats et analyses
+- 📊 Projet 601 présentation.pptx
+- 📄 README.md # Présentation du projet
 
 ---
 
